@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+$purple: #700CC2;
+$pink: #D664FF;
+$blue: #5339CC;
+
+
+.homepage {
+    background-color: white;
+    color: black;
+    width: 358px;
+    height: 590px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    border-radius: 8px;
+
+    img {
+        margin-top: 20px;
+        height: 48px;
+        width: 52.5px;
+        position: relative;
+        left: 135px;
+    }
+
+    input {
+        background-color: white;
+        color: #D1D5DB;
+        padding: 9px 13px;
+        height: 42px;
+        border: 1px solid #D1D5DB;
+        box-shadow: none;
+        border-radius: 6px;
+        border-color: #D1D5DB;
+    }
+
+    input[type=checkbox] {
+        accent-color: red;
+      }
+
+    .rememberMe {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .checkbox {
+            display: inline;
+        }
+
+        p {
+            font-size: 80%;
+            color: $purple;
+            display: flex;
+            margin-top: 24px;
+            margin-bottom: 24px;
+        }
+    }
+
+    button {
+        border: none;
+        border-radius: .2rem;
+        height: 38px;
+        font-size: 100%;
+        letter-spacing: 0.4px;
+    }
+
+    .login {
+        background-color: $purple;
+    }
+
+    .gum {
+        background-color: $pink;
+        margin-top: 16px;
+    }
+
+    .phantom {
+        background-color: $blue;
+        margin-top: 16px;
+        
+        .icon {
+            background: url(../public/phantom.jpg);
+            width: 30px;
+        }
+        
+    }
+
+}
