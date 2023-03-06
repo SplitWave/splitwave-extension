@@ -8,10 +8,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@solana/wallet-adapter-wallets": "^0.19.15",
+    "@solana/web3.js": "^1.73.3",
     "next": "12.1.6",
     "react": "18.1.0",
     "react-dom": "18.1.0",
-    "sass": "^1.58.3"
+    "sass": "^1.58.3",
+    "undefined": "^0.1.0"
   },
   "devDependencies": {
     "eslint": "8.16.0",
