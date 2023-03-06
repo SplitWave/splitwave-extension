@@ -26,6 +26,7 @@ export default function Home2() {
             <div className={styles.pendingTx}>
                 <p>PENDING WAVE</p>
             </div>
+            <button className={styles.initiate}>Initiate new payment</button>
         </div>
     )
 }
