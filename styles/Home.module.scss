@@ -16,9 +16,9 @@ $blue: #5339CC;
     flex-direction: column;
     padding: 0 20px;
     border-radius: 8px;
+    padding-top: 20px;
 
     img {
-        margin-top: 20px;
         height: 48px;
         width: 52.5px;
         position: relative;
@@ -86,4 +86,65 @@ $blue: #5339CC;
         
     }
 
+}
+
+
+.homepage2 {
+    background-color: white;
+    color: black;
+    width: 358px;
+    height: 590px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    border-radius: 8px;
+    padding-top: 20px;
+
+    img {
+        border-radius: 4px;
+    }
+
+    .navbar {
+        display: flex;
+        height: 56px;
+
+        p {
+            text-align: left;
+            font-size: 70%;
+            margin-right: 90px;
+            margin-left: 10px;
+        }
+
+        p:first-child {
+            font-weight: 900;
+            margin-top: 2px;
+            margin-bottom: -9px;
+          }
+    }
+
+    .icons {
+        display: flex;
+        justify-content: space-between;
+        width: 100px;
+    }
+
+    hr {
+        height: 30px; 
+        border-style: solid; 
+        border-color: #8c8b8b; 
+        border-width: 1px 0 0 0; 
+        border-radius: 20px;
+    }
+
+    .pendingTx {
+        height: 140px;
+        margin-top: 10px;
+        background-color: black;
+        color: white;
+        text-align: left;
+        padding-left: 16px;
+        font-size: 12px;
+    }
 }

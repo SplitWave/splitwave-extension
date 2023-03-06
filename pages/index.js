@@ -1,6 +1,7 @@
-import styles from '@/styles/Home.module.scss'
+import styles from "../styles/Home.module.scss"
 
 export default function Home() {
+    
     return (
         <div className={styles.homepage}>
             <img src="images.jpeg" />
@@ -10,7 +11,6 @@ export default function Home() {
             <div className={styles.rememberMe}>
                 <div className={styles.checkbox}>
                     {/* <input type="checkbox" /> */}
-                    
                     <p>Remember me</p>
                 </div>
                 <p>Forgot your password?</p>
