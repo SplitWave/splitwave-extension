@@ -1,4 +1,4 @@
-import Navbar from "@/component/navbar";
+import Navbar from "../component/navbar";
 import { useState } from "react";
 import styles from "../styles/Home.module.scss"
 import ControlPointOutlinedIcon from '@mui/icons-material/ControlPointOutlined';
