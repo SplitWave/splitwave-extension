@@ -1,14 +1,17 @@
 import Link from 'next/link'
 import styles from '../styles/Home.module.scss'
+import { useState } from 'react';
 
 export default function Home() {
+
+    const [address, setAddress] = useState()
 
     const connectWallet = async () => {
         if (window?.solana?.isPhantom) {
             console.log('Phantom wallet found!');
             const response = await window.solana.connect()
             console.log('Connected with Public Key: ', response.publicKey.toString())
-            setWalletAddress(response.publicKey.toString())
+            setAddress(response.publicKey.toString())
         } else {
             alert('Solana object not found! Get a Phantom Wallet')
         }
