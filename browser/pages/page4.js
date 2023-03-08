@@ -1,16 +1,14 @@
-import Navbar from "@/component/navbar";
-import { useState } from "react";
 import styles from "../styles/Home.module.scss"
 import ControlPointOutlinedIcon from '@mui/icons-material/ControlPointOutlined';
+import Navbar from "../component/navbar";
+import Amount from "../component/amount";
 
 export default function Page4() {
 
-    const [amount, setAmount] = useState(100)
     return (
         <div  className={styles.page4}>
             <Navbar />
-            <h4>Amount to pay</h4>
-            <h2>{amount} SOL</h2>
+            <Amount />
             <p>Select a first wallet</p>
             <input placeholder="Fzmd...TTe2" />
             <span><ControlPointOutlinedIcon /></span>
